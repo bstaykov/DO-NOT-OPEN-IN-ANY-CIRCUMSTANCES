@@ -1,0 +1,45 @@
+﻿<div id="conteiner" class="table-responsive"></div>
+
+@section scripts{
+    <script>
+        $.get("/api/PremierLeagueTeams", function (teams) {
+            var i,
+                length,
+                $table = $('<table>'),
+                $tbody = $('<tbody>'),
+                $thead = $('<thead>'),
+                $trh = $('<tr>'),
+                $tr = $('<tr>'),
+                $th = $('<th>'),
+                $td = $('<td>');
+
+            $table.addClass('table table-striped table-bordered table-hover table-condensed');
+            $trh.addClass('success');
+            $th.html('ID');
+            $trh.append($th.clone(true));
+            $th.html('Team');
+            $trh.append($th.clone(true));
+            $trh.append($th.clone(true));
+            $trh.append($th.clone(true));
+            $trh.append($th.clone(true));
+            $trh.append($th.clone(true));
+            $thead.append($trh.clone(true));
+            $table.append($thead.clone(true));
+
+            for (i = 0, length = teams.length; i < length; i += 1) {
+                $td.html(teams[i].Id);
+                $tr.html($td.clone(true));
+                $td.html(teams[i].Name);
+                $tr.append($td.clone(true));
+                $tr.append($td.clone(true));
+                $tr.append($td.clone(true));
+                $tr.append($td.clone(true));
+                $tr.append($td.clone(true));
+                $tbody.append($tr.clone(true));
+            }
+
+            $table.append($tbody.clone(true));
+            $("#conteiner").html($table);
+        });
+    </script>
+}
