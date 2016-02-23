@@ -10,7 +10,7 @@
     using TeamsServices.Models;
 
     // [EnableCors("*", "*", "*")] from anywhere anything
-    [EnableCors("http://client-5.apphb.com/", "*", "GET,POST,DELETE,PUT")]
+    [EnableCors("*", "*", "GET,POST,DELETE,PUT")]
     public class PremierLeagueTeamsController : ApiController
     {
         [HttpGet]
