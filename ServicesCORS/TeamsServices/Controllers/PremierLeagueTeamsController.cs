@@ -21,78 +21,78 @@
                 new TeamModel()
                 {
                     Id = 0,
-                    Name = "LeicesterCity",
+                    Name = "AFCBournemouth",
                 },
 
                 new TeamModel()
                 {
                     Id = 1,
-                    Name = "TottenhamHotspur",
-                },
-                new TeamModel()
-                {
-                    Id = 2,
                     Name = "Arsenal",
                 },
                 new TeamModel()
                 {
+                    Id = 2,
+                    Name = "Burnley",
+                },
+                new TeamModel()
+                {
                     Id = 3,
-                    Name = "ManchesterCity",
-                },
-                new TeamModel()
-                {
-                    Id = 4,
-                    Name = "ManchesterUnited",
-                },
-                new TeamModel()
-                {
-                    Id = 5,
-                    Name = "Southampton",
-                },
-                new TeamModel()
-                {
-                    Id = 6,
-                    Name = "WestHamUnited",
-                },
-                new TeamModel()
-                {
-                    Id = 7,
-                    Name = "Liverpool",
-                },
-                new TeamModel()
-                {
-                    Id = 8,
-                    Name = "Watford",
-                },
-                new TeamModel()
-                {
-                    Id = 9,
-                    Name = "StokeCity",
-                },
-                new TeamModel()
-                {
-                    Id = 10,
-                    Name = "Everton",
-                },
-                new TeamModel()
-                {
-                    Id = 11,
                     Name = "Chelsea",
                 },
                 new TeamModel()
                 {
-                    Id = 12,
+                    Id = 4,
                     Name = "CrystalPalace",
                 },
                 new TeamModel()
                 {
+                    Id = 5,
+                    Name = "Everton",
+                },
+                new TeamModel()
+                {
+                    Id = 6,
+                    Name = "HullCity",
+                },
+                new TeamModel()
+                {
+                    Id = 7,
+                    Name = "LeicesterCity",
+                },
+                new TeamModel()
+                {
+                    Id = 8,
+                    Name = "Liverpool",
+                },
+                new TeamModel()
+                {
+                    Id = 9,
+                    Name = "ManchesterCity",
+                },
+                new TeamModel()
+                {
+                    Id = 10,
+                    Name = "ManchesterUnited",
+                },
+                new TeamModel()
+                {
+                    Id = 11,
+                    Name = "Middlesbrough",
+                },
+                new TeamModel()
+                {
+                    Id = 12,
+                    Name = "Southampton",
+                },
+                new TeamModel()
+                {
                     Id = 13,
-                    Name = "WestBromwichAlbion",
+                    Name = "StokeCity",
                 },
                 new TeamModel()
                 {
                     Id = 14,
-                    Name = "AFCBournemouth",
+                    Name = "Sunderland",
                 },
                 new TeamModel()
                 {
@@ -102,22 +102,22 @@
                 new TeamModel()
                 {
                     Id = 16,
-                    Name = "NorwichCity",
+                    Name = "TottenhamHotspur",
                 },
                 new TeamModel()
                 {
                     Id = 17,
-                    Name = "NewcastleUnited",
+                    Name = "Watford",
                 },
                 new TeamModel()
                 {
                     Id = 18,
-                    Name = "Sunderland",
+                    Name = "WestBromwichAlbion",
                 },
                 new TeamModel()
                 {
                     Id = 19,
-                    Name = "AstonVilla",
+                    Name = "WestHamUnited",
                 },
             };
 
