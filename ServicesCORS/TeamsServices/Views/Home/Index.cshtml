@@ -1,4 +1,8 @@
-﻿<div id="conteiner" class="table-responsive"></div>
+﻿<p>
+    <h1>Service URL</h1>
+    <a href="http://service-19.apphb.com/api/PremierLeagueTeams">http://service-19.apphb.com/api/PremierLeagueTeams</a>
+</p>
+<div id="conteiner" class="table-responsive"></div>
 
 @section scripts{
     <script>
@@ -30,10 +34,6 @@
                 $td.html(teams[i].Id);
                 $tr.html($td.clone(true));
                 $td.html(teams[i].Name);
-                $tr.append($td.clone(true));
-                $tr.append($td.clone(true));
-                $tr.append($td.clone(true));
-                $tr.append($td.clone(true));
                 $tr.append($td.clone(true));
                 $tbody.append($tr.clone(true));
             }
